@@ -1,0 +1,142 @@
+*{
+    background-color: #0B1D26;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+/* блок шапки начало */
+header{
+    display: flex;
+    height: 0px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+}
+
+nav a{
+    color: white;
+    background-color: transparent;
+    font-size: 18px;   
+}
+
+.logotip{
+    width: 100px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 120px;
+    position: relative;
+    top: 20px;
+}
+
+.acc{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+}
+/* блок шапкт конец */
+
+/* блок пользователь начало */
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 80px;
+}
+
+.userphoto{
+    width: 200px;
+}
+
+.opisuser{
+    margin-left: 60px;
+}
+
+.useracc{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.nickname{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.emailuser{
+    color: white;
+    font-size: 32px;
+}
+
+.btnexit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:65px;
+    height:55px;
+    margin-left: 800px;
+    border-radius:5px ;
+}
+
+.btnexit img{
+    width: 39px;
+    height: 39px;
+}
+
+.useracc{
+    margin-top: 60px;
+}
+/* блок пользователь конец */
+
+/* блок подвал начало */
+.foot{
+    display: flex;
+}
+
+.opisanfoot{
+    color: white;
+    width: 300px;
+}
+
+.copy{
+    margin-top: 120px;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+footer{
+    margin-top: 220px;
+    height: 380px;
+}
+
+.foot{
+    margin-left: 250px;
+}
+
+.navvf{
+    display: flex;
+    margin-left: 320px;
+}
+
+.navigationfoot{
+    margin-left: 150px;
+}
+
+.navf{
+    color: white;
+    font-size: 18px;
+}
+
+.navfy{
+    color: #FBD784;
+    font-size: 24px;
+}
+/* блок подвала конец */

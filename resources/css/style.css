@@ -1,0 +1,195 @@
+*{
+    background-color: #0B1D26;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+
+/* баннер и шапка начало */
+.mainbanner{
+    display: flex;
+    flex-direction: column;
+    background-image:url("../media/mainsitebg.png");
+    height: 1900px;
+}
+
+header{
+    display: flex;
+    height: 0px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+    margin: 0 auto;
+}
+
+nav a{
+    color: white;
+    background-color: transparent;
+    font-size: 18px;   
+}
+
+.nadzagbannera{
+    margin-top: 120px;
+    background-color: transparent;
+    color: #FBD784;
+    font-size: 18px;
+    margin-left: 460px;
+    position: relative;
+    top: 50px;
+}
+
+.zagolovokbanner{
+    background-color: transparent;
+    color: white;
+    font-size: 88px;
+    font-family: "Playfair Display";
+    width: 900px;
+    margin-left: 460px;
+}
+
+.logotip{
+    width: 100px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 120px;
+    position: relative;
+    top: 20px;
+}
+
+.acc{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+    background-color: transparent;
+}
+
+.scroll{
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 460px;
+    position: relative;
+    bottom: 80px;
+}
+
+.info{
+    display: flex;
+}
+
+.buttonvoiti{
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+    margin-left: 120px;
+    width: 200px;
+}
+/* баннер и шапка конец */
+
+/* блок с новостями начало */
+.nubmer{
+    font-size: 240px;
+    color: rgba(255, 255, 255, 0.349);
+    margin-top: -100px;
+    background-color: transparent;
+}
+
+.started{
+    font-size: 18px;
+    background-color: transparent;
+    color: #FBD784;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.infozagalovok{
+    margin-top: -260px;
+    color: white;
+    font-size: 64px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.infoopis{
+    color: white;
+    font-size: 18px;
+    width: 680px;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+
+.readmore{
+    color: #FBD784;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.infopic{
+    margin-left: 120px;
+}
+
+.infoblock{
+    margin-top: 220px;
+}
+
+.infoblock1{
+    margin-top: -230px;
+}
+
+
+.textt{
+    margin-left: 220px;
+}
+/* блок с новостями конец */
+
+/* блок подвал начало */
+.foot{
+    display: flex;
+}
+
+.opisanfoot{
+    color: white;
+    width: 300px;
+}
+
+.copy{
+    margin-top: 120px;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+footer{
+    margin-top: 220px;
+    height: 380px;
+}
+
+.foot{
+    margin-left: 250px;
+}
+
+.navvf{
+    display: flex;
+    margin-left: 320px;
+}
+
+.navigationfoot{
+    margin-left: 150px;
+}
+
+.navf{
+    color: white;
+    font-size: 18px;
+}
+
+.navfy{
+    color: #FBD784;
+    font-size: 24px;
+}
+/* блок подвала конец */
+
